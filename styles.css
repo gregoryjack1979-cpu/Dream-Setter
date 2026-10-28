@@ -91,7 +91,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 /* ---------- Hero ---------- */
 .hero { padding-block: 56px 40px; background: radial-gradient(1200px 600px at 80% -10%, rgba(63,127,240,.14), transparent 60%), var(--bg); }
 .hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 48px; align-items: center; }
-h1 { font-size: clamp(48px, 7vw, 92px); font-weight: 800; letter-spacing: -.015em; margin-bottom: 24px; }
+h1 { font-size: clamp(48px, 6vw, 76px); font-weight: 800; letter-spacing: -.015em; margin-bottom: 24px; }
 .hero-intro { font-size: 19px; color: var(--muted); max-width: 54ch; margin-bottom: 28px; }
 .hero-intro strong { color: var(--fg); font-weight: 600; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
