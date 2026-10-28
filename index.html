@@ -27,7 +27,7 @@
 <script src="app.js" defer></script>
 <script src="site.js" defer></script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Organization","name":"Dream Setter","url":"https://dreamsetter.net/","logo":"https://dreamsetter.net/assets/dreamsetter-logo.jpg","slogan":"Thick Skin. Smart Calls.","description":"AI appointment setting for businesses that buy leads."}
+{"@context":"https://schema.org","@type":"Organization","name":"Dream Setter","legalName":"Dream Setter Inc.","url":"https://dreamsetter.net/","logo":"https://dreamsetter.net/assets/dreamsetter-logo.jpg","slogan":"Thick Skin. Smart Calls.","description":"AI appointment setting for businesses that buy leads.","foundingDate":"2026-10-19","founder":{"@type":"Person","name":"Jack Hogrebe"},"address":{"@type":"PostalAddress","streetAddress":"1040 Pike St","addressLocality":"Saint Charles","addressRegion":"MO","postalCode":"63301","addressCountry":"US"}}
 </script>
 </head>
 <body>
@@ -282,6 +282,10 @@
         <label for="cf-notes">Anything we should know?</label>
         <textarea id="cf-notes" name="notes" rows="3" placeholder="Lead sources, current setup, what’s not working"></textarea>
       </div>
+      <div class="form-row consent">
+        <input id="cf-consent" name="smsConsent" type="checkbox" value="yes" required>
+        <label for="cf-consent">I agree to receive calls and text messages from Dream Setter Inc. about my demo request at the number provided. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help. Consent is not a condition of purchase. See our <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.</label>
+      </div>
       <button type="submit" class="button primary" id="cf-submit">Request a demo <span aria-hidden="true">↗</span></button>
       <p class="form-status" id="cf-status" role="status"></p>
       <p class="privacy-note">We use this only to reply to you. No newsletters, no resale.</p>
@@ -316,9 +320,11 @@
       <a href="#calculator">Your numbers</a>
       <a href="#questions">FAQ</a>
       <a href="#contact">Book a demo</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
     </nav>
     <div class="footer-meta">
-      <p>© <span id="year">2026</span> Dream Setter · dreamsetter.net</p>
+      <p>© <span id="year">2026</span> Dream Setter Inc. · Saint Charles, Missouri · dreamsetter.net</p>
       <p>The scenario calculator is an illustrative model, not a quote or guarantee. This site sets no cookies and runs no analytics; calculator inputs never leave your browser.</p>
     </div>
   </div>

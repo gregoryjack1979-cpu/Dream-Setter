@@ -13,6 +13,7 @@ Static files, no build step. Upload the folder contents to the web host's docume
 | `site.js` | Mobile menu, applies `site-config.js`, contact form submit. |
 | `model.js` | Calculator math (unchanged from the verified October 19 build). |
 | `app.js` | Calculator UI: three steps, results, copy/download (unchanged from the verified October 19 build). |
+| `privacy.html`, `terms.html` | Privacy Policy and Terms of Service for Dream Setter Inc., including the text-message (SMS) consent language that carriers require for A2P 10DLC registration. Have an attorney review before relying on them. |
 | `assets/` | Badge logo, favicons, Apple touch icon, social preview image. |
 
 ## Before launch
@@ -25,6 +26,12 @@ Static files, no build step. Upload the folder contents to the web host's docume
 2. Confirm pricing, coverage, and service-scope wording. The calculator's $50 per-appointment fee and 13% booking rate are illustrative sample inputs, not quotes.
 3. If the live domain is not `https://dreamsetter.net/`, update the `canonical`, `og:url`, and `og:image` tags in `index.html`.
 4. Test on a phone (Safari and the Facebook in-app browser) and on desktop: menu, calculator steps, copy/download, contact links.
+
+## Business identity on the site
+
+Legal entity: **Dream Setter Inc.**, Missouri corporation, 1040 Pike St, Saint Charles, MO 63301. The footer shows the legal name and city; the full address appears in the privacy policy and terms. The EIN is never published on the site.
+
+The contact form includes a required SMS-consent checkbox. The form posts `smsConsent: "yes"` with the other fields, so the CRM can record consent. Keep that checkbox and the policy links; phone-number registration (A2P 10DLC) reviewers check for them.
 
 ## Calculator check
 
